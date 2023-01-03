@@ -26,11 +26,3 @@
         {/if}
     </div>
 {/if}
-
-
-
-{if !'JPLOGINBOX_BRANDINGFREE'|defined || !JPLOGINBOX_BRANDINGFREE}
-	<div class="copyright">
-        {lang}wcf.jpLoginBox.copyright{/lang}
-	</div>
-{/if}
