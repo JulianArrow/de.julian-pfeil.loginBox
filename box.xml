@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/box.xsd">
+	<import>
+		<box identifier="de.julian-pfeil.loginBox.LoginBox">
+			<name language="de">Registrieren, Anmelden und Abmelden</name>
+			<name language="en">Register, log in and log out</name>
+			<boxType>system</boxType>
+			<position>sidebarRight</position>
+			<objectType>de.julian-pfeil.loginBox.LoginBox</objectType>
+			<showHeader>0</showHeader>
+			<visibleEverywhere>0</visibleEverywhere>
+            <content language="de">
+                <title>Registrieren, Anmelden und Abmelden</title>
+            </content>
+            <content language="en">
+                <title>Register, log in and log out</title>
+            </content>
+		</box>
+	</import>
+</data>

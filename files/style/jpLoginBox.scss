@@ -1,0 +1,32 @@
+.box[data-box-identifier="de.julian-pfeil.loginBox.LoginBox"] {
+    .boxContent {
+        text-align: center;
+
+        .sidebarAvatar {
+            margin-top: 10px;
+        }
+
+        > p {
+            margin: 10px 0px;
+        }
+
+        h3 {
+            font-weight: 400;
+            font-size: $wcfFontSizeHeadline;
+            line-height: 1.28;
+            margin-top: 10px;
+        }
+
+        .loginLink, .logoutButton {
+            margin: 10px;
+        }
+    }
+
+    .copyright {
+        padding-top: 16px;
+        text-align: center;
+        > a {
+            font-size: 10.5px;
+        }
+    }
+}

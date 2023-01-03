@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/2019/language.xsd" languagecode="de">
+	<category name="wcf.jpLoginBox">
+        <item name="wcf.jpLoginBox.welcomeGuest"><![CDATA[Willkommen lieber Gast, {if LANGUAGE_USE_INFORMAL_VARIANT}du kannst dich{else}Sie können sich{/if} hier anmelden{if !REGISTER_DISABLED} oder registrieren{/if}, um an unserer Community teilzunehmen!]]></item>
+        <item name="wcf.jpLoginBox.welcomeBack"><![CDATA[Willkommen zurück...]]></item>        
+        <item name="wcf.jpLoginBox.userGreeting"><![CDATA[<h3>Hallo {$__wcf->user->username}...</h3><p>Viel Spaß auf unserer Seite wünscht {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} <i>{PAGE_TITLE|language}</i>.</p>]]></item>
+        <item name="wcf.jpLoginBox.copyright"><![CDATA[<a href="https://julian-pfeil.de" class="small" rel="nofollow"{if EXTERNAL_LINK_TARGET_BLANK} target="_blank"{/if}><strong>Login-Box</strong> (von <strong>julian-pfeil.de</strong>)</a>]]></item>
+    </category>
+</language>

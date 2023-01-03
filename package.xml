@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.julian-pfeil.loginBox" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/package.xsd">
+	<packageinformation>
+		<packagename>Login-Box</packagename>
+		<packagename language="de">Login-Box</packagename>
+		<packagedescription>This package implements a box that can be flexibly integrated into the right sidebar for registration, login and logout.</packagedescription>
+		<packagedescription language="de">Dieses Paket implementiert eine Box, die flexibel für Registrierung, Anmeldung und Abmeldung in die rechte Seitenleiste integriert werden kann.</packagedescription>
+		<version>1.0.0</version>
+        <date>2023-01-03</date>
+		<packageurl><![CDATA[https://darkwood.design/store/user-file-list/1298-julian-pfeil/]]></packageurl>
+	</packageinformation>
+
+	<authorinformation>
+        <author>Julian Pfeil</author>
+        <authorurl>https://julian-pfeil.de</authorurl>
+	</authorinformation>
+
+	<requiredpackages>
+		<requiredpackage minversion="5.5.0">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+
+	<excludedpackages>
+		<excludedpackage version="6.0.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+	</excludedpackages>
+
+	<instructions type="install">
+		<!-- files -->
+		<instruction type="file"/>
+        <instruction type="template"/>
+		
+		<!-- xml-->
+		<instruction type="objectType"/>
+		<instruction type="box"/>
+		<instruction type="language"/>
+	</instructions>
+</package>
